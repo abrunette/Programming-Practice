@@ -1,8 +1,13 @@
-//Created by Aaron Brunette
-//github: abrunette
-//Created: 2017/23/02
-
-#include <iostream>
+/*****************NextPrime.cpp**************/
+//Author: Aaron Brunette
+//Github: abrunette
+//Last updated: 2017/02/23
+//Compiled with G++
+//Written on Vim
+//Purpose: To generate successive prime numbers
+//until the user tells the program to stop.
+/********************************************/
+#include <iostream>	//input/output library
 using namespace std;
 
 //declare findNextPrime function
