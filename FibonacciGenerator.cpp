@@ -3,6 +3,7 @@
 //Github: abrunette
 //Last updated: 2017/02/22
 //Compiled with G++
+//Written on
 //Purpose: To generate successive fibonacci numbers up to
 //the amount the user specified.
 /*****************************************************/
