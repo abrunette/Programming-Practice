@@ -1,8 +1,13 @@
-//Created by Aaron Brunette
-//github: abrunette
-//Created: 2017/02/22
+/*****************FibonacciGenerator.cpp**************/
+//Author: Aaron Brunette
+//Github: abrunette
+//Last updated: 2017/02/22
+//Compiled with G++
+//Purpose: To generate successive fibonacci numbers up to
+//the amount the user specified.
+/*****************************************************/
 
-#include <iostream>
+#include <iostream>	//input/output library
 using namespace std;
 
 //declare fibonacci function
