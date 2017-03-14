@@ -1,8 +1,14 @@
-//Created by Aaron Brunette
-//github: abrunette
-//Created: 2017/02/22
+/*****************PrimeFactors.cpp**************/
+//Author: Aaron Brunette
+//Github: abrunette
+//Last updated: 2017/02/22
+//Compiled with G++
+//Written on Vim
+//Purpose: To find the individual prime factors
+//of a user specified number.
+/***********************************************/
 
-#include <iostream>
+#include <iostream>	//input/output library
 using namespace std;
 
 bool isPrime(int);			//isPrime function declaration
