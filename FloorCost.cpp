@@ -1,9 +1,15 @@
-//Created by Aaron Brunette
-//github: abrunette
-//Created: 2017/02/23
+/*****************FloorCost.cpp**************/
+//Author: Aaron Brunette
+//Github: abrunette
+//Last updated: 2017/02/23
+//Compiled with G++
+//Written on Vim
+//Purpose: To calculate the cost of a floorplan
+//with given cost and size.
+/********************************************/
 
-#include <iostream>
-#include <iomanip>
+#include <iostream>	//input/output library
+#include <iomanip>	//input/output manipulation library
 using namespace std;
 
 //declare calculateTotal function
