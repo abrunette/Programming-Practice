@@ -16,6 +16,7 @@ void fibonacci(int);
 
 //Purpose: To ask the user how many fibonacci numbers
 // they want to generate, then call the fibonacci function.
+//User information: Run the program.
 int main()
 {
 	int input;	//user input
@@ -40,7 +41,8 @@ int main()
 //Purpose: To generate the fibonacci sequence up to the
 // user specified int, "Nth". Outputs all fibonacci 
 // numbers up to the value specified by "Nth".
-
+//Parameters: Takes one integer "Nth" that determines what
+// fibonacci number to go up to.
 //Algorithm: Uses a while loop that checks if the counter
 // has reached the value specified by "Nth". Initially
 // outputs the first fibonacci number. Enters while loop.
