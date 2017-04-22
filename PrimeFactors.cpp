@@ -18,6 +18,9 @@ void recursiveFactor(int, int);		//recursiveFactor function declaration
 // of that number. It then calls isPrime to check if it is a prime number. If
 // it isn't prime, it calls recursive factor, recursively, in order to find
 // all of the prime factors of the number the user input.
+//User information: Run the program.
+//Input: Takes a number that the user would like to factor.
+//Output: Outputs the factors of the number that the user input.
 int main()
 {
 	int input;	//user input
@@ -55,9 +58,7 @@ int main()
 }
 
 //Purpose: To determine if the int argument is a prime number.
-
 //Parameter: Checking is int from user input.
-
 //Algorithm: Uses a while loop to check the modulus of every
 // number between 1 and checking. If modulus of checking and 
 // the current factor is 0, then the current factor is a factor
@@ -83,13 +84,11 @@ bool isPrime(int checking)
 }
 
 //Purpose: To find the prime factors of the user input number.
-
 //Parameters: Number is a constant variable that never gets
 // altered and is persistant through every recursion. I could
 // have used a global variable but chose not to. newFactor is
 // initially another copy of Number but is the one that gets
 // overwritten with the sub-factor after each recursion.
-
 //Algorithm: Recieves two copies of the original user input.
 // Starts testing every factor between 1 and Number. Finds
 // the smallest factor and then finds the complementary factor.
