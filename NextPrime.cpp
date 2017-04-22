@@ -15,6 +15,10 @@ int findNextPrime(int);
 
 //Purpose: To continuously generate the next prime number
 // for as long as the user want to.
+//User information: Run the program.
+//Input: Takes a char input to determine if the user wants
+// to continue generating prime numbers.
+//Output: Outputs each prime number that is generated.
 int main()
 {
 	char input;		//user input
@@ -41,10 +45,8 @@ int main()
 }
 
 //Purpose: To find the next prime number from the previous one.
-
-//Parameter: Finding is the previous number generated. Can be prime
+//Parameters: Finding is the previous number generated. Can be prime
 // or composite.
-
 //Algorithm: This function is called in main when the use wants to
 // find the next prime number. It is also called recursively when
 // if the number that is being checked is not a prime. If the number
