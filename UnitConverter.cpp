@@ -1,3 +1,10 @@
+//Author's Note:
+// My ambitions for this project got a bit larger than I am likely capable of doing at this time.
+// I will probably keep this on the chance that I become able to implement the ideas I had.
+// I will most likely redo this with a more simple approach that doesn't cover as many edge cases.
+// It was a good startup project that helped me realize that proper structuring prior to coding is important.
+// It has definitely encouraged me to continue learning more about programming.
+
 /*****************UnitConverter.cpp**************/
 //Author: Aaron Brunette
 //Github: abrunette
