@@ -1,4 +1,4 @@
-/*****************filename**************/
+/*****************Collatz.cpp**************/
 //Author: Aaron Brunette
 //Github: abrunette
 //Last updated: 2017/10/05
