@@ -119,7 +119,7 @@ void recursiveFactor(int Number, int newFactor)
 				cout << otherFactor << " is a factor of " << Number << endl;
 				return;
 			}			
-			//run recursion on complementart factor
+			//run recursion on complementary factor
 			recursiveFactor(Number, otherFactor);
 			return;
 		}
