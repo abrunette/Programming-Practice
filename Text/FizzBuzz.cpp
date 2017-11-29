@@ -1,7 +1,7 @@
 /*****************FizzBuzz.cpp**************/
 //Author: Aaron Brunette
 //Github: abrunette
-//Last updated: 2017/10/24
+//Last updated: 2017/11/28
 //Compiled with g++
 //Written on Vim
 //Purpose: Prints out numbers 1 to 100
@@ -19,14 +19,14 @@ int main()
 {
 	for(int i = 1; i <= 100; i++)
 	{
-		if((i % 3) == 0)
+		if(i % 3)
 		{
-			if((i % 5) == 0)
+			if(i % 5)
 				printf("FizzBuzz\n");
 			else
 				printf("Fizz\n");
 		}
-		else if((i % 5) == 0)
+		else if(i % 5)
 			printf("Buzz\n");
 		else
 			printf("%d \n", i);
