@@ -48,6 +48,7 @@ int main()
 //Parameters: Gets user input string with
 // number to be checked.
 //Algorithm: Luhn algorithm.
+//Output: Returns check digit.
 int Luhn(string checkThis)
 {
 	int sum = 0;
